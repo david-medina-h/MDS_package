@@ -1,0 +1,13 @@
+Package: nbafun
+Title: Functions for NBA data set.
+Version: 0.0.0.1
+Authors@R: person("David", "Medina Hernandez", email = "dm3316@columbia.edu", role = c("aut", "cre"))
+Description: Functions for NBA data set. Finds oldest player in a given year. Finds highest scoring player in a given year. Computes correlation matrix for numeric variables in a given year.
+Depends: R (>= 3.4.3)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports:
+  dplyr,
+  purrr
